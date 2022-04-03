@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <nav>
+        <i class="menu fa fa-bars" aria-hidden="true"></i>
+        <p>Rutuja Jamdar</p>
+        <a href="#block1">Home</a>
+        <a href="#block2">About</a>
+        <a href="#block3">Project</a>
+        <a href="#block4">Resume</a>
+        <a href="#block5">Contact</a>
+    </nav>
+    
+
+    <div class="block b1" id="block1">
+        <div class="flex-box f1">
+            <div class="sec1">
+                <p>Hi , I am Rutuja Jamdar</p>
+                <p >A Full Stack Web Developer</p><br>
+                <hr><br>
+                <h5>Get ready to turn ideas into reality</h5><br>
+                <a class="btn" href="#block5"> Hire Me </a>
+                <a class="btn" href="#block4"> Get Resume </a>
+            </div>
+            <div class="sec2"></div>
+        </div>
+    </div>
+
+    <div class="block b2" id="block2" >
+        <div class="heading">About Me</div>
+        <div class="flex-box f2">
+            <div class="box1"></div>
+            <div class="box2">
+                <!-- <h2>About Me</h2><br> -->
+                <p>
+                    I'm a full stack developer.
+                    I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. 
+                    I also have skills in other fields like branding, icon design or web development.
+                </p><br>
+                <p>
+                    I enjoy turning complex problems into simple, beautiful and intuitive designs. 
+                    When I'm not pushing pixels, you'll find me cooking, gardening or working out in the park.
+                </p>
+                <div class="skill">
+                    <div><i class="fa-brands fa-html5"></i><p>HTML</p></div>
+                    <div><i class="fa-brands fa-css3"></i><p>CSS</p></div>
+                    <div><i class="fa-brands fa-js"></i><p>Javascript</p></div>
+                    <div><i class="fa-solid fa-c"></i><p>C</p></div>
+                    <div><i class="fa-brands fa-python"></i><p>Python</p></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="block" id="block3">
+         <div class="heading">Portfolio</div>
+        <!--<div class="project-box">
+            <a href="https://rutuja16.github.io/HTML/Project1/pr.html" target="_blank"><div class="P pr1"></div></a>
+            
+            
+            
+            
+        </div> -->
+        <div class="project-box ">
+            <i class="arrow fa-solid fa-chevron-left" onclick="plusSlides(-1)"></i>
+            <i class="arrow fa-solid fa-chevron-right" onclick="plusSlides(1)"></i>
+            <div class="slider">
+                <a href="https://rutuja16.github.io/HTML/Project1/pr.html" target="_blank"><img src="./image/pr1.png" alt=""></a>
+            </div>
+            <div class="slider">
+                <a href="https://rutuja16.github.io/Projects/Project%202/index.html" target="_blank"><img src="./image/pr2.png" alt=""></a>
+            </div>
+            <div class="slider">
+                <a href="https://rutuja16.github.io/Projects/Project%203/index.html" target="_blank"><img src="./image/pr3.png" alt=""></a>
+                
+            </div>
+            <div class="slider">
+                <a href="https://rutuja16.github.io/Projects/Project%204/index.html" target="_blank"><img src="./image/pr4.png" alt=""></a>
+                
+            </div>
+            <div class="slider">
+                <a href="https://rutuja16.github.io/Projects/Project%205/index.html" target="_blank"><img src="./image/pr5.png" alt=""></a>
+            </div>
+            <div class="bottom" style="text-align:center">
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+                <span class="dots" onclick="currentSlide(4)"></span>
+                <span class="dots" onclick="currentSlide(5)"></span>
+            </div> 
+        </div>
+        
+    </div>
+    <div class="block b4" id="block4">
+        <div class="heading">Resume</div>
+        <div class="flex-box f4">
+            <div class="r1">
+
+                <div class="work">
+                    <h2 class="main">Work Experience</h2><br>
+                    <hr><br>
+                    <div class="ball">
+                        <div class="circle"></div>
+                        <h3>Genx Technology,Pune
+                            <button class="btn-right" >2021</button></h3>
+                        <p>Python Developer Intern -FullTime</p>
+                    </div>
+                    <div class="ball">
+                        <div class="circle"></div>
+                        <h3>Tata Consultancy Services,Pune
+                            <button class="btn-right">2022</button></h3>
+                        <p>Assistant System Engineer-Trainee -FullTime</p>
+                    </div>
+                </div>
+
+                <div class="study">
+                    <h2 class="main">Education</h2><br>
+                    <hr><br>
+                    <div class="ball">
+                        <div class="circle"></div>
+                        <h3>Savitribai Phule Pune University <button class="btn-right">2018-2021</button></h3>
+                        <p>B.E in computer Engineering</p>
+                    </div>
+                    <div class="ball">
+                        <div class="circle"></div>
+                        <h3>Maharashtra State Board Of Technical Education <button class="btn-right">2015-2028</button></h3>
+                        <p>Diploma in computer Engineering</p>
+                    </div>
+                    <div class="ball">
+                        <div class="circle"></div>
+                        <h3>Maharashtra State Board of Secondary and Higher Secondary Education <button class="btn-right">2009-2015</button></h3>
+                        <p>SSC(10th)</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="r2">
+            </div>
+        </div>
+    </div>
+
+    <div class="block" id="block5">
+        <div class="heading">Contact Me</div>
+        <div class="flex-box f5">
+            <div class="connect">
+                <h2>let's connect</h2>
+                <div class="contact"><i class="fa-solid fa-envelope"></i> rutujajamdar2@gmail.com</div>
+                <div class="contact"><i class="fa-solid fa-phone"></i> 7972811802</div>
+                <div class="contact"><i class="fa-solid fa-location-dot"></i> Shirur , Pune</div><br>
+                <hr>
+            </div>
+            <div class="form">
+                <p class="msg">Send me a message</p>
+                <form action="">
+                    <label for="">Full Name</label><br>
+                    <input type="text" id="f_name" placeholder="Enter Your Full Name" ><br>
+                    <label for="">Phone No</label><br>
+                    <input type="contact" maxlength="10" id="ph_no"  placeholder="10 Digit Phone No" ><br>
+                    <label for="">Email Address </label><br>
+                    <input type="email" id="email" placeholder="Enter Your Mail ID" ><br>
+                    <label for="">Message</label><br>
+                    <textarea name="" id="" cols="30" rows="5" id="msg" placeholder="Message"></textarea><br><br> 
+
+                    <button class="btn-send">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+         Rutuja Jamdar 
+        <br>
+        <hr class="footer-line">
+        All rights reserved © 2022.
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
